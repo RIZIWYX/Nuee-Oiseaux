@@ -3,8 +3,8 @@ opam-version: "2.0"
 synopsis: "Simulation de nuée d'oiseaux (boids) en OCaml fonctionnel pur"
 description:
   "Implémentation du modèle boids de Craig Reynolds (1986) en OCaml strictement fonctionnel : pas d'état mutable, pas d'effets de bord non contrôlés, architecture modulaire avec signatures .mli documentées."
-maintainer: ["Aksil"]
-authors: ["Aksil"]
+maintainer: ["Rayane Graïne"]
+authors: ["Rayane Graïne"]
 license: "MIT"
 depends: [
   "ocaml" {>= "4.14"}
@@ -27,4 +27,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/aksil/nuee-oiseaux.git"
+dev-repo: "git+https://github.com/RIZIWYX/nuee-oiseaux.git"

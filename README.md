@@ -1,12 +1,15 @@
 # Nuée d'Oiseaux — Simulation Boids en OCaml
 
-![Aperçu de la simulation](doc/preview.gif)
+[![CI](https://github.com/RIZIWYX/nuee-oiseaux/actions/workflows/ci.yml/badge.svg)](https://github.com/RIZIWYX/nuee-oiseaux/actions/workflows/ci.yml)
+![OCaml](https://img.shields.io/badge/OCaml-%E2%89%A54.14-orange)
+![Tests](https://img.shields.io/badge/tests%20Alcotest-45-brightgreen)
+[![Licence MIT](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
+
+> Projet réalisé seul par **Rayane Graïne** (L2 Informatique, Université de Rouen Normandie).
 
 Simulation multi-agents de type **boids** écrite en **OCaml purement fonctionnel** : aucun état mutable, aucun effet de bord non contrôlé, tout est exprimé en `List.map` / `List.fold_left` et en récursion terminale.
 
 Le modèle boids, introduit par Craig Reynolds en 1986, reproduit le comportement collectif d'une nuée d'oiseaux à partir de **trois règles locales** appliquées à chaque agent — sans qu'aucun individu n'ait une vue globale du groupe.
-
-> *L'aperçu ci-dessus a été généré pour illustrer le comportement attendu*
 
 ---
 
@@ -234,13 +237,11 @@ nuee-oiseaux/
 │   ├── test_environment.ml # 11 tests
 │   └── test_simulation.ml  # 13 tests
 ├── doc/
-│   ├── boids_ocaml.pdf     # Document de conception
-│   └── preview.gif         # Aperçu de la simulation
-│   
+│   └── boids_ocaml.pdf     # Document de conception
+│
 ├── .github/workflows/
 │   └── ci.yml              # Build + tests sur GitHub Actions
 ├── .gitignore
-├── .ocamlformat
 ├── LICENSE                 # MIT
 ├── README.md
 └── dune-project

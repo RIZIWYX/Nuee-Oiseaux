@@ -1,0 +1,18 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bibliothèques X11 (pour graphics)
+        run: sudo apt-get update && sudo apt-get install -y libx11-dev pkg-config
+      - uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: '5.2'
+      - name: Dépendances
+        run: opam install . --deps-only --with-test
+      - name: Compilation
+        run: opam exec -- dune build
+      - name: Tests Alcotest
+        run: opam exec -- dune test
