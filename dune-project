@@ -3,7 +3,7 @@
 (name birds)
 (generate_opam_files true)
 
-(source (uri git+https://github.com/RIZIWYX/nuee-oiseaux.git))
+(source (uri git+https://github.com/RIZIWYX/Nuee-Oiseaux.git))
 (license MIT)
 (authors "Rayane Graïne")
 (maintainers "Rayane Graïne")

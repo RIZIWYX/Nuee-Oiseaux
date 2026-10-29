@@ -1,6 +1,6 @@
 # Nuée d'Oiseaux — Simulation Boids en OCaml
 
-[![CI](https://github.com/RIZIWYX/nuee-oiseaux/actions/workflows/ci.yml/badge.svg)](https://github.com/RIZIWYX/nuee-oiseaux/actions/workflows/ci.yml)
+[![CI](https://github.com/RIZIWYX/Nuee-Oiseaux/actions/workflows/ci.yml/badge.svg)](https://github.com/RIZIWYX/Nuee-Oiseaux/actions/workflows/ci.yml)
 ![OCaml](https://img.shields.io/badge/OCaml-%E2%89%A54.14-orange)
 ![Tests](https://img.shields.io/badge/tests%20Alcotest-45-brightgreen)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-green)](LICENSE)

@@ -27,4 +27,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/RIZIWYX/nuee-oiseaux.git"
+dev-repo: "git+https://github.com/RIZIWYX/Nuee-Oiseaux.git"
