@@ -5,6 +5,8 @@
 ![Tests](https://img.shields.io/badge/tests%20Alcotest-45-brightgreen)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
 
+![Démo : la nuée en mouvement](doc/demo.gif)
+
 > Projet réalisé seul par **Rayane Graïne** (L2 Informatique, Université de Rouen Normandie).
 
 Simulation multi-agents de type **boids** écrite en **OCaml purement fonctionnel** : aucun état mutable, aucun effet de bord non contrôlé, tout est exprimé en `List.map` / `List.fold_left` et en récursion terminale.
